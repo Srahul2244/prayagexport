@@ -1,0 +1,54 @@
+.middle-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: center;
+  gap: 10px;
+}
+.middle-column .image1 {
+  height: 230px;
+  /* background-color: white; */
+  background-image: url("../../Assest/middle-1.jpg");
+  background-size: cover;
+}
+.middle-column .image2 {
+  height: 230px;
+  /* background-color: white; */
+  background-image: url("../../Assest/middle-2.jpg");
+  background-size: cover;
+}
+.middle-column .image3 {
+  height: 230px;
+  /* background-color: white; */
+  background-image: url("../../Assest/middle-3.jpg");
+  background-size: cover;
+}
+.middle-column .image4 {
+  height: 230px;
+  /* background-color: white; */
+  background-image: url("../../Assest/middle-4.jpg");
+  background-size: cover;
+}
+.first {
+  position: relative;
+}
+.instagram-first {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 1s;
+}
+.first:hover .instagram-first {
+  visibility: visible;
+  opacity: 1;
+}
+.image1,
+.image2,
+.image3,
+.image4 {
+  position: relative;
+}
