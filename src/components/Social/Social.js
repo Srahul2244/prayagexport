@@ -4,6 +4,8 @@ import image1 from "../../Assest/image1.jpg";
 import image2 from "../../Assest/image2.jpg";
 import first from "../../Assest/Logo/instagram.png";
 const Social = () => {
+
+  
   return (
     <div className="grid grid-cols-3 gap-2 items-center">
       <div className="first">

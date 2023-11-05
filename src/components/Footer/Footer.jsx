@@ -2,7 +2,7 @@ import React from "react";
 
 export default function App() {
   return (
-    <footer className="bg-yellow-300 text-center text-white dark:bg-neutral-600">
+    <footer className="bg-yellow-300 text-center text-white dark:bg-neutral-600 mt-10">
       <div className="container pt-9">
         <div className="mb-9 flex justify-center">
           <a className="mr-9 text-neutral-800 dark:text-neutral-200">
@@ -71,9 +71,7 @@ export default function App() {
           </a>
         </div>
       </div>
-      <div className="bg-yellow-300 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
-        Lays
-      </div>
+      <div className="bg-yellow-300 p-2 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200"></div>
     </footer>
   );
 }
